@@ -1,0 +1,11 @@
+[package]
+name = "app"
+version = "1.0.0"
+authors = ["The Teaclave Authors"]
+build = "build.rs"
+
+[dependencies]
+sgx_types = { git = "https://github.com/apache/teaclave-sgx-sdk.git" }
+sgx_urts = { git = "https://github.com/apache/teaclave-sgx-sdk.git" }
+path-absolutize = "3.0.6"
+lazy_static = "1.4.0"

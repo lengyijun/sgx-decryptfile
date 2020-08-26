@@ -1,0 +1,7 @@
+/bin
+target/
+*.so
+*.a
+*.o
+Enclave_u.*
+Enclave_t.*
